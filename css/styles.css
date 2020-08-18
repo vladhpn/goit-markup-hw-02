@@ -1,0 +1,49 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста  #757575;
+ */
+/* белый #FFFFFF  */
+/* акцент синий #2196F3 */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Навигация */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Контакты */
+
+.auth-nav .contacts {
+  color: var(--primary-text-color);
+}
+
+.auth-nav .contacts:hover,
+.auth-nav .contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Кнопка  */
+
+.button {
+  color: var(--primary-white-color);
+}
